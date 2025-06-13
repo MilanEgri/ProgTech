@@ -9,9 +9,7 @@ namespace Chat_Logger.Repository
 {
     public interface IChatMessageRepository
     {
-        /// <summary>
         /// Adattár műveletek interfésze (REPOSITORY PATTERN)
-        /// </summary>
         void Add(ChatMessage message);
         List<ChatMessage> GetAll();
     }

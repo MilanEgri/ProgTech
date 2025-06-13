@@ -7,9 +7,7 @@ using Chat_Logger.Domain;
 
 namespace Chat_Logger.Repository
 {
-    /// <summary>
     /// Memóriában tároló implementáció (REPOSITORY PATTERN)
-    /// </summary>
     public class InMemoryChatRepository : IChatMessageRepository
     {
         // Ideiglenes tároló a memóriában
